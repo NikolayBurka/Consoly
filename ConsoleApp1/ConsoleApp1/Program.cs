@@ -15,8 +15,9 @@ class Program
         {
             totalWeight += weight;
         }
+        Console.WriteLine(totalHeight);
+        double averageHeight = (double)totalHeight / j;
+        Console.WriteLine("Средний рост студентов: " + averageHeight);
 
-        Console.WriteLine("Общая масса груза: " + totalWeight);
-        Console.ReadLine();
     }
 }
